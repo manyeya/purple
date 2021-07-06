@@ -1,0 +1,53 @@
+prpl-front/.DS_Store
+prpl-front/node_modules
+/dist
+
+
+# local env files
+prpl-front/.env.local
+prpl-front/.env.*.local
+
+# Log files
+prpl-front/npm-debug.log*
+prpl-front/yarn-debug.log*
+prpl-front/yarn-error.log*
+prpl-front/pnpm-debug.log*
+
+# Editor directories and files
+prpl-front/.idea
+prpl-front/.vscode
+prpl-front/*.suo
+prpl-front/*.ntvs*
+prpl-front/*.njsproj
+prpl-front/*.sln
+prpl-front/*.sw?
+
+
+# The directory Mix will write compiled artifacts to.
+prpl/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+prpl/cover/
+
+# The directory Mix downloads your dependencies sources to.
+prpl/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+prpl/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+prpl/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+prpl/rl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+prpl/*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+prpl/prpl-*.tar
+
+# Since we are building assets from assets/,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+prpl/priv/static/
