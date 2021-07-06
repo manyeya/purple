@@ -25,6 +25,7 @@ config :prpl, PrplWeb.Endpoint,
     "--mode",
     "development",
     "--watch-options-stdin",
+    "--watch",
     "--config",
     "node_modules/@vue/cli-service/webpack.config.js",
     cd: Path.expand("../../prpl-front", __DIR__)
